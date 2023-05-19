@@ -1,0 +1,8 @@
+hàm tạo của 1 class là gì
+thuộc tính của 1 class
+các khai báo và sử dụng
+cách truy cập và thuộc tính của class.
+
+hàm tạo của 1 class là :
+là 1 constructor của 1 lớp là phương thức đặc biệt được sử dụng để khởi tạo đối tượng của lớp dó
+Hàm được đặt tên giống với tên của lớp và có thể có hoặc không tham số.

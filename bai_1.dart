@@ -130,3 +130,16 @@ int tinhTong(int n) {
 //     return n + tinhTong(n - 1);
 //   }
 // }
+class TenTuoi {
+  String name;
+  int age;
+  
+ TenTuoi(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  void sayHello() {
+    print('Hello, my name is $name and I am $age years old.');
+  }
+}

@@ -1,4 +1,7 @@
+import 'dart:js_util';
+
 import 'bai_1.dart';
+import 'oop1.dart';
 
 // void main(){
 //   print("Hello");
@@ -33,8 +36,29 @@ import 'bai_1.dart';
 // }
 
 // tính tổng các số tự nhiên từ 1 - n dùng hàm đệ quy
+// void main(List<String> args) {
+//   var n = 1000000;
+//   var ketQua = tinhTong(n);
+//   print('Tổng các số tự nhiên từ 1 đến $n là $ketQua');
+// }
+
+// void main() {
+//   var person = ('John', 30);
+//   person.sayHello();
+// }
+
 void main(List<String> args) {
-  var n = 1000000;
-  var ketQua = tinhTong(n);
-  print('Tổng các số tự nhiên từ 1 đến $n là $ketQua');
+BaiTap emp = new BaiTap(1, 'bai1');
+emp.soThuTu = 1;
+emp.tenBai = 'bai1';
+emp.ketQua();
 }
+
+
+// void main(List<String> args) {
+//   TinhTong emp = new TinhTong('Chung', 23);
+//   emp.name = 'chung';
+//   emp.age = 23;
+//   emp.ketQua();
+// }
+
